@@ -141,7 +141,7 @@ class Poketeball(se.Object):
         amount = random.choices([1, 2, 3],
                                 weights=[10, 2, 1], k=1)[0]
         item = random.choices(["poketeball", "hyperball", "superball",
-                               "healing_potion", "treat"],
+                               "healing_potion", "rare_candy"],
                               weights=[10, 1.5, 1, 1, 1],
                               k=1)[0]
         self.figure.give_item(item, amount)
