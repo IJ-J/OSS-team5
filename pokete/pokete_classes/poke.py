@@ -136,7 +136,8 @@ can't have more than 4 attacks!"
     def set_vars(self):
         """Updates/sets some vars"""
         for name in ["atc", "defense", "initiative"]:
-            setattr(self, name, round((self.lvl() + self.inf[name]
+            bonus = self.lvl()*0.5
+            setattr(self, name, round((self.lvl() +2+ self.inf[name]
                     + (2 if self.shiny else 0)) * self.nature.get_value(name)))
         for atc in self.attack_obs:
             atc.set_ap(atc.max_ap)

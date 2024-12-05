@@ -2,13 +2,13 @@ items = {
     "poketeball": {
         "pretty_name": "Poketeball",
         "desc": "A ball you can use to catch Poketes",
-        "price": 2,
+        "price": 1,
         "fn": "poketeball"
     },
     "superball": {
         "pretty_name": "Superball",
         "desc": "A ball you can use to catch Poketes with an increased chance",
-        "price": 10,
+        "price": 9,
         "fn": "superball"
     },
     "hyperball": {
@@ -20,19 +20,19 @@ items = {
     "healing_potion": {
         "pretty_name": "Healing potion",
         "desc": "Heals a Pokete with 5 HP",
-        "price": 15,
+        "price": 13,
         "fn": "heal_potion"
     },
     "super_potion": {
         "pretty_name": "Super potion",
         "desc": "Heals a Pokete with 15 HP",
-        "price": 25,
+        "price": 23,
         "fn": "super_potion"
     },
     "ap_potion": {
         "pretty_name": "AP potion",
         "desc": "Refills the Poketes attack APs.",
-        "price": 100,
+        "price": 90,
         "fn": "ap_potion"
     },
     "treat": {
