@@ -224,14 +224,14 @@ pokes = {
         "hp": 20,
         "atc": 3,
         "defense": 2,
-        "attacks": ["tackle", "shadow_ball"],
+        "attacks": ["tackle", "chocer"],
         "pool": [],
         "miss_chance": 0.1,
         "desc": "A small shadow creature that lurks in dark corners.",
         "lose_xp": 2,
         "rarity": 1,
-        "types": ["dark", "normal"],
-        "evolve_poke": "umbrawl",
+        "types": ["normal"],
+        "evolve_poke": "",
         "evolve_lvl": 20,
         "initiative": 4,
         "ico": [{
@@ -242,65 +242,18 @@ pokes = {
             "esc": None}],
     },
 
-    "umbrawl": {
-        "name": "Umbrawl",
-        "hp": 25,
-        "atc": 5,
-        "defense": 3,
-        "attacks": ["shadow_ball", "night_slash", "dark_pulse"],
-        "pool": [],
-        "miss_chance": 0.1,
-        "desc": "A menacing shadow with glowing eyes and sharp claws.",
-        "lose_xp": 4,
-        "rarity": 0.7,
-        "types": ["dark", "normal"],
-        "evolve_poke": "nightterror",
-        "evolve_lvl": 35,
-        "initiative": 5,
-        "ico": [{
-            "txt": r"""
-  /\__/\
- (◕__◕)
-  \><</ """,
-            "esc": None}],
-    },
-
-    "nightterror": {
-        "name": "Nightterror",
-        "hp": 30,
-        "atc": 7,
-        "defense": 5,
-        "attacks": ["shadow_ball", "night_slash", "dark_pulse", "nightmare"], # type: ignore
-        "pool": [],
-        "miss_chance": 0.1,
-        "desc": "A terrifying creature of darkness that haunts the dreams of its enemies.",
-        "lose_xp": 6,
-        "rarity": 0.3,
-        "types": ["dark", "ghost"],
-        "evolve_poke": "",
-        "evolve_lvl": 0,
-        "initiative": 6,
-        "ico": [{
-            "txt": r"""
-   /\___/\
-  (  o o  )
- /  \-^-/  \
-/ /| \ / |\ \ """,
-            "esc": None}],
-    },
-
     "darkrai": {
         "name": "Darkrai",
         "hp": 30,
         "atc": 8,
         "defense": 5,
-        "attacks": ["dark_void", "nightmare", "shadow_ball", "dark_pulse"],
+        "attacks": ["supercow_power", "snooze"],
         "pool": [],
         "miss_chance": 0,
         "desc": "A mythical Pokete that can lull people to sleep and give them nightmares.",
         "lose_xp": 8,
         "rarity": 0.05,
-        "types": ["dark"],
+        "types": ["normal"],
         "evolve_poke": "",
         "evolve_lvl": 0,
         "initiative": 7,
