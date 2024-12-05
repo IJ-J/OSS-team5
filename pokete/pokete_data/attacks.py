@@ -38,7 +38,7 @@ attacks = {
         "min_lvl": 4,
         "desc": "A high-pressure water attack that deals significant damage.",
         "types": ["water"],
-        "effect": None,  # No special effect, just damage
+        "effect": "",  # No special effect, just damage
         "is_generic": True,
         "ap": 18,
     },
@@ -52,7 +52,7 @@ attacks = {
         "min_lvl": 2,
         "desc": "A basic fire attack that may cause a burn.",
         "types": ["fire"],
-        "effect": None,
+        "effect": "",
         "is_generic": True,
         "ap": 12,
     },
