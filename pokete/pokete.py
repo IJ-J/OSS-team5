@@ -226,7 +226,7 @@ gained {add_xp}xp and reached level {pokete_care.poke.lvl()}!"])
     @staticmethod
     def playmap_49_npc_28(npc):
         """Interaction with npc_28"""
-        npc.give("Candy man", "treat")
+        npc.give("Candy man", "rare_candy")
 
     @staticmethod
     def playmap_42_npc_21(npc):
@@ -589,7 +589,7 @@ class Inv:
                             or action.triggers(Action.ACCEPT)
                         ):
                             self.box2.remove()
-                            if obj.name == "treat":
+                            if obj.name == "rare_candy":
                                 if ask_bool(
                                     self.map,
                                     "Do you want to upgrade one of "

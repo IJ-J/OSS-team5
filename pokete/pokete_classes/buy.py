@@ -34,7 +34,8 @@ class Buy:
         self.map = _map
         self.items = [invitems.poketeball, invitems.superball,
                       invitems.healing_potion,
-                      invitems.super_potion, invitems.ap_potion]
+                      invitems.super_potion, invitems.ap_potion,
+                      invitems.masterball, invitems.rare_candy, invitems.master_masterball, invitems.super_super_potion]
         self.box.add_c_obs([se.Text(f"{obj.pretty_name} : {obj.price}$")
                             for obj in self.items])
         self.money_label = se.Text(f"{figure.get_money()}$")
