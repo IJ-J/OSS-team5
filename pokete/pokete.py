@@ -357,11 +357,11 @@ class CenterMap(PlayMap):
                          pretty_name="Pokete-Center", song="Map.mp3")
         self.inner = se.Text(""" ________________
  |______________|
- |     |a |     |
+ |     |c |     |
  |     ¯ ¯¯     |
  |              |
  |______  ______|
- |_____|  |_____|""", ignore=" ")
+ |_____|  |_____|""", ignore=" ") #포케테 센터 npc 표시 바꿈@@
 
         self.interact = CenterInteract("¯", state="float")
         self.dor_back1 = CenterDoor(" ", state="float")
@@ -390,11 +390,11 @@ class ShopMap(PlayMap):
                          pretty_name="Pokete-Shop", song="Map.mp3")
         self.inner = se.Text(""" __________________
  |________________|
- |      |a |      |
+ |      |s |      |
  |      ¯ ¯¯      |
  |                |
  |_______  _______|
- |______|  |______|""", ignore=" ")
+ |______|  |______|""", ignore=" ") #포케테 샵 npc 표시 바꿈@@
         self.interact = ShopInteract("¯", state="float")
         self.dor_back1 = CenterDoor(" ", state="float")
         self.dor_back2 = CenterDoor(" ", state="float")
