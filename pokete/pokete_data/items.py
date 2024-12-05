@@ -47,6 +47,34 @@ items = {
         "price": None,
         "fn": None
     },
+            # 추가함
+    "masterball": {
+        "pretty_name": "Masterball",
+        "desc": "Has the highest chance of catching any Pokete, even more than Hyperball",
+        "price": 10000,
+        "fn": "masterball"
+    },
+    #추가함
+    "master_masterball": {
+        "pretty_name": "Master Maseterball",
+        "desc": "Even the trainer's Pokémon are catchable.",
+        "price": 1000000,
+        "fn": "master_masterball"
+    },
+    # 추가함
+    "rare_candy": {
+        "pretty_name": "Rare candy",
+        "desc": "Upgrades a Pokete by a whole level.",
+        "price": 10000,
+        "fn": "rare_candy"
+    },
+    #추가함
+    "super_super_potion": {
+        "pretty_name": "Super Super Potion",
+        "desc": "Heals a Pokete with 100% HP",
+        "price": 5000,
+        "fn": "super_super_potion"
+    }
 }
 
 

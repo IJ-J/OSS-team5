@@ -445,7 +445,7 @@ class FightItems:
             2: The win the game
             None: To let the enemy attack"""
 
-        if not isinstance(enem, NatureProvider):
+        if not isinstance(enem, NatureProvider) and name != "master_masterball":
             fightmap.outp.outp("You can't do that in a duel!")
             return 1
         fightmap.outp.rechar(f"You threw a {name.capitalize()}!")
@@ -523,6 +523,28 @@ class FightItems:
             atc.set_ap(atc.max_ap)
         logging.info("[Fighitem][ap_potion] Used")
 
+# 추가함
+    def masterball(self, obj, enem):
+        """Masterball function"""
+        return self.throw(obj, enem, 1e10, "masterball")
+#추가함
+    def master_masterball(self, obj, enem):
+        """Master Masterball function"""
+        return self.throw(obj, enem, 1e10, "master_masterball")
+#추가함(예외처리)
+    @staticmethod
+    def rare_candy(obj, _):
+        """Rare candy function"""
+        fightmap.outp.outp("You can't use rare candy in battle!")
+        logging.info("[Fighitem][rare_candy] Attempted to use in battle")
+#추가함
+    @staticmethod
+    def super_super_potion(obj, _):
+        """Super Super Potion function"""
+        obj.remove_item("super_super_potion")
+        obj.curr.hp = obj.curr.full_hp
+        obj.curr.hp_bar.make(obj.curr.hp)
+        logging.info("[Fighitem][super_super_potion] Used on %s", obj.curr.name)
 
 fightitems = FightItems()
 fightmap: FightMap = None
