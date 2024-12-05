@@ -253,7 +253,7 @@ pokes = {
         "desc": "A menacing shadow with glowing eyes and sharp claws.",
         "lose_xp": 4,
         "rarity": 0.7,
-        "types": ["dark", "normal"],
+        "types": ["normal"],
         "evolve_poke": "nightterror",
         "evolve_lvl": 35,
         "initiative": 5,
@@ -276,7 +276,7 @@ pokes = {
         "desc": "A terrifying creature of darkness that haunts the dreams of its enemies.",
         "lose_xp": 6,
         "rarity": 0.3,
-        "types": ["dark", "ghost"],
+        "types": ["undead"],
         "evolve_poke": "",
         "evolve_lvl": 0,
         "initiative": 6,
@@ -300,7 +300,7 @@ pokes = {
         "desc": "A mythical Pokete that can lull people to sleep and give them nightmares.",
         "lose_xp": 8,
         "rarity": 0.05,
-        "types": ["dark"],
+        "types": ["undead"],
         "evolve_poke": "",
         "evolve_lvl": 0,
         "initiative": 7,
@@ -336,6 +336,8 @@ pokes = {
 v-|     |-v""",
             "esc": None}],
     },
+    
+#여기까지 새로운 포켓몬
 
     "steini": {
         "name": "Steini",
